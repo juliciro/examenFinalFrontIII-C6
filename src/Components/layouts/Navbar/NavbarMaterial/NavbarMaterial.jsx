@@ -94,7 +94,7 @@ const NavbarMaterial = (props) => {
         >
           <Box>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrQvKUToj7R0VkMVym1LkJerzY3goYjM1rHQ&usqp=CAU"
+              src='images/consultorio.JPG'
               alt="logo"
               style={{ width: "70px" }}
             />

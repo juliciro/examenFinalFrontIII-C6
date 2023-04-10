@@ -8,16 +8,17 @@ import {
 } from "@mui/material";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import images from "images";
 
 const DentistCard = ({ elemento }) => {
   const navigate = useNavigate();
   return (
     <Card sx={{ width: 345, height: 400 }}>
       <CardMedia
-        component="img"
+        component="images/dentist.JPG"
         alt="green iguana"
         height="200"
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrQvKUToj7R0VkMVym1LkJerzY3goYjM1rHQ&usqp=CAU"
+        image="images/dentist.JPG"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" align="center">
